@@ -63,7 +63,7 @@
                                     <action selector="converterSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="jRI-OV-4IN"/>
                                 </connections>
                             </switch>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stick.png" translatesAutoresizingMaskIntoConstraints="NO" id="0ak-fh-whv">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stick.png" translatesAutoresizingMaskIntoConstraints="NO" id="0ak-fh-whv">
                                 <rect key="frame" x="40" y="275" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -100,6 +100,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="stick.png" width="16" height="16"/>
+        <image name="stick.png" width="426" height="640"/>
     </resources>
 </document>

@@ -13,6 +13,7 @@
 		63A9DCA41E52B8840022EFDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A9DCA31E52B8840022EFDD /* Assets.xcassets */; };
 		63A9DCA71E52B8840022EFDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A9DCA51E52B8840022EFDD /* LaunchScreen.storyboard */; };
 		63A9DCB21E52B8850022EFDD /* bodyCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A9DCB11E52B8850022EFDD /* bodyCalcTests.swift */; };
+		63ABF60F1E80A97700AAEBBB /* stick.png in Resources */ = {isa = PBXBuildFile; fileRef = 63ABF60E1E80A97700AAEBBB /* stick.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		63A9DCAD1E52B8850022EFDD /* bodyCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bodyCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A9DCB11E52B8850022EFDD /* bodyCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bodyCalcTests.swift; sourceTree = "<group>"; };
 		63A9DCB31E52B8850022EFDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63ABF60E1E80A97700AAEBBB /* stick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stick.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		63A9DC9B1E52B8840022EFDD /* bodyCalc */ = {
 			isa = PBXGroup;
 			children = (
+				63ABF60E1E80A97700AAEBBB /* stick.png */,
 				63A9DC9C1E52B8840022EFDD /* AppDelegate.swift */,
 				63A9DC9E1E52B8840022EFDD /* ViewController.swift */,
 				63A9DCA01E52B8840022EFDD /* Main.storyboard */,
@@ -181,6 +184,7 @@
 			files = (
 				63A9DCA71E52B8840022EFDD /* LaunchScreen.storyboard in Resources */,
 				63A9DCA41E52B8840022EFDD /* Assets.xcassets in Resources */,
+				63ABF60F1E80A97700AAEBBB /* stick.png in Resources */,
 				63A9DCA21E52B8840022EFDD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,6 +410,7 @@
 				63A9DCB81E52B8850022EFDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63A9DCB91E52B8850022EFDD /* Build configuration list for PBXNativeTarget "bodyCalcTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +419,7 @@
 				63A9DCBB1E52B8850022EFDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
