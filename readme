@@ -1,0 +1,5 @@
+Belinda Wong
+CPSC 411 Assignment 2
+BMI Calculator
+
+App with one view.  Allows user to enter a height and weight.  A metric units switch will allow the user to switch between metric units and American? units.  There is a picture of a stick figure.  There is a calculate button that will take the height and weight entered and return a BMI.
